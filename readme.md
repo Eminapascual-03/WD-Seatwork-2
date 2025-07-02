@@ -20,9 +20,10 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=Eminapascual-03/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=Eminapascual-03/WD-Seatwork-2)
 
 [![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+https://wakatime.com/dashboard 
 
 ---
 
@@ -62,10 +63,7 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+This project is about making five different main sections for a website, using only HTML and CSS. The goal is to make the website look very appealing right away, with each section showing a different visual theme or message We will use HTML to place these pictures and set their basic structure. Then, CSS will be used to size them correctly and position them where they look best. 
 
 ### Key Components
 <!-- TODO: List of Key Components -->
