@@ -5,25 +5,19 @@
 <br />
 <div align="center">
   <a href="https://github.com/Eminapascual-03/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/blue rose.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/blue rose.png" alt="blue rose" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Hero Section</h3>
+  <h3 align="center">Hero Section - Activity 2</h3>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  This acctivity is about making 5 different hero sections with different designs each page. 
 </div>
 
 <br />
-
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 ![](https://visit-counter.vercel.app/counter.png?page=Eminapascual-03/WD-Seatwork-2)
 
 [![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
-https://wakatime.com/dashboard 
+(https://wakatime.com/dashboard) 
 
 ---
 
@@ -57,26 +51,21 @@ https://wakatime.com/dashboard
 ---
 
 ## Overview
-
-<!-- TODO: To be changed -->
 <!-- The following are just sample -->
 Description of the project in details.
 
 Guiding Question:
-This project is about making five different main sections for a website, using only HTML and CSS. The goal is to make the website look very appealing right away, with each section showing a different visual theme or message We will use HTML to place these pictures and set their basic structure. Then, CSS will be used to size them correctly and position them where they look best. 
+This project is about making five different main sections for a website, using only HTML and CSS. The goal is to make the website look very appealing right away, with each section showing a different designs. We will use HTML to place these pictures and set their basic structure. Then, CSS will be used to size them correctly and position them where they look best. 
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- 5 Hero Section Designs
 
 ### Technology
-<!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
