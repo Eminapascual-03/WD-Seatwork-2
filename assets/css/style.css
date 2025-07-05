@@ -20,17 +20,30 @@ body {
     justify-content: space-between; 
 }
 
-.wallpaper {
-    position: absolute;
-    top: 0; 
-    left: 0; 
-    object-fit: cover;
-    z-index: -1;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    filter: sepia(0.4) hue-rotate(-10deg) opacity(0.6); 
+.hero-background {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 0;
+  overflow: hidden;
 }
+
+.hero-background::before {
+    content: "";
+    position: absolute;
+    inset: 0; 
+    z-index: -1;
+    background-image: url('../img/sb19-jumpshot.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    filter: sepia(0.4) hue-rotate(-10deg) opacity(0.6);
+}
+
 
 .header {
     width: calc(100vw - 2rem); 
