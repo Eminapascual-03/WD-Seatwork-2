@@ -1,158 +1,125 @@
-*, *::before, *::after, h6, p {
+/* Universal Reset */
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* font-family: var(--content-font); */ 
 }
 
-/* Dev */
-.contents,
-.contents * {
-    /* outline: 1px dashed yellow; */
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Times New Roman', Times, serif;
 }
 
 body {
-    height: 300vh;
-    width: 100dvh;
-    overflow-x: hidden;
-}
-
-.hero-background {
-    width: 100dvw;
-    height: 100dvh;
-    background: url('../img/grassland-wallpaper.jpg');
-    object-fit: cover;
-    position: relative;
-
-    & .mascot {
-        position: absolute;
-        right: 2rem;
-        bottom: 0;
-        height: 15rem;
-    }
-}
-
-.contents {
-    width: 100dvw;
-    height: calc(100dvh - 60px);
+    color: white; 
+    background: rgb(146, 180, 228);
     display: flex;
-    align-items: center;
     flex-direction: column;
-    color: white;
+    min-height: 100vh; 
+    align-items: center;
     justify-content: space-between;
-
-    & .top {
-        & .logo {
-            height: 50px;
-        }
-    }
-
-    & .middle {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: relative;
-        
-        & .note {
-            font-size: 1rem;
-            padding: 2rem;
-            }
-
-            & .card {
-                padding: 2rem;
-                width: 35dvw;
-                background: rgba(255, 255, 255, 0.1);
-                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.301);
-                backdrop-filter: blur(10px);
-                -webkit-backdrop-filter: blur(10px);
-                font-size: 1.2rem;
-                border: 1px solid rgba(245, 245, 245, 0.212);
-                color: white;
-                border-radius: 15px;
-
-                & .card-img {
-                    position: absolute;
-                    height: calc(100% - 4rem);
-                    width: fit-content;
-                    right: 2rem;
-                    z-index: -1;
-                }
-
-                & .title {
-                    padding: 1rem 0;
-                    border-bottom: 1px white solid;
-                    width: fit-content;
-                    font-weight: 700;
-                    letter-spacing: 1.2rem;
-                    filter: invert(1);
-                }
-
-                & .description {
-                    padding: 1rem 0;
-                    width: 65%;
-                    font-size: 1rem;
-                    text-align: justify;
-                    text-justify: inter-word;
-                    filter: invert(1);
-                }
-
-                & i {
-                    filter: invert(1);
-                }
-            }
-
-        & .others {
-            display: flex;
-            justify-content: space-between;
-            width: 35dvw;
-            padding: 2rem;
-
-            p {
-                filter: invert(1);
-                padding: 0;
-                margin: 0;
-            }
-        }
-    }
-
-    & .bottom {
-        display: flex;
-        gap: 1rem;
-        margin-bottom: 3rem;
-        filter: invert(1);
-
-        & .creators {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-            & h6 {
-                padding: 0;
-                margin: 0;
-                font-weight: 650;
-            }
-
-            & p {
-                padding: 0;
-                margin: 0;
-            }
-        }
-    }
 }
 
-@media only screen and (max-width: 1024px) {
-    .contents {
-        & .middle {
-            & .card, & .others {
-                width: 70dvw;
-
-            }
-        }
-
-    }
-
-    .hero-background {
-        & .mascot {
-            height: 10rem;
-        }
-    }
+.wallpaper {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    object-fit: cover;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    filter: sepia(0.4) hue-rotate(-10deg) opacity(0.6); 
+   
 }
+
+.header {
+    width: calc(100vw - 2rem); 
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 1rem;
+    gap: 1rem;
+    color: white;
+    height: fit-content;
+    z-index: 10; 
+}
+
+.header .btn {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.301);
+    font-size: 1.2rem;
+    border: 1px solid rgba(0, 52, 240, 0.212);
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    font-weight: 700;
+    text-decoration: none;
+    /* color: var(--color-primary-1); */
+    color: white;
+    overflow: visible;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.header .btn.active {
+    background: rgba(255, 255, 255, 0.479);
+}
+
+.header .btn::before {
+    position: absolute;
+    width: 10px;
+    height: 50px;
+    z-index: -1;
+    background: rgba(115, 159, 255, 0.1);
+    display: block;
+    content: '';
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transform: skew(20deg) translateY(-5px) translateX(40px);
+    transition: all 0.2s ease;
+}
+
+.header .btn:hover {
+    transform: scale(1.1);
+}
+
+.header .btn:hover::before {
+    transform: skew(20deg) translateY(-5px) translateX(-20px);
+}
+
+.main-content {
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding: 2rem 1rem; 
+    width: 100%; 
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+    text-align: center; 
+}
+
+.hero-content-1 { 
+    text-align: center;
+}
+
+
+.bottom {
+    padding-bottom: 5rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    color: white;
+    z-index: 10; 
+}
+
+.bottom .year {
+    font-weight: 300;
+}
+
