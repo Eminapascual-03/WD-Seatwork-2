@@ -6,7 +6,7 @@
 }
 
 .hero-background {
-  background-image: url('../img/hbd3.jpg');
+  background-image: url('../img/hbd6.jpg');
   filter: sepia(0.1) hue-rotate(-10deg);
   background-size: cover;
   background-position: center;
@@ -28,11 +28,11 @@
 .btn {
   background: rgba(255, 255, 255, 0.2);
   padding: 0.4rem 1rem;
-  border-radius: 5px;
+  border-radius: 15px;
   font-weight: bold;
   color: white;
   border: 1px solid rgba(255, 255, 255, 0.4);
-  transition: 0.3s;
+  transition: 0.8s;
 }
 
 .btn:hover {
@@ -47,11 +47,11 @@
 
 .hero-sides {
   display: flex;
-  justify-content: space-between; /* Or space-around */
+  justify-content: space-between; 
   align-items: flex-start;
   padding: 4rem 8rem;
   gap: 2rem;
-  flex-wrap: wrap; /* Ensures cards stack on small screens */
+  flex-wrap: wrap;
 }
 
 .card1 {
@@ -60,9 +60,9 @@
   border-radius: 4px;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border: 1.8px dashed rgb(64, 255, 0);
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
-  color: white;
+  border: 1.8px dashed rgb(0, 0, 0);
+  box-shadow: 0 0 50px rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   width: 320px;
   text-align: center;
 }
@@ -70,9 +70,9 @@
 .card-img1 {
   width: 100%;
   height: auto;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   margin: 1rem 0;
-  transform: scale(2.5); 
+  transform: scale(2.7); 
 }
 
 .card2 {
@@ -81,9 +81,9 @@
   border-radius: 15px;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgb(230, 230, 150);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  color: white;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   width: 300px;
   text-align: center;
 }
@@ -98,11 +98,12 @@
   background: rgba(250, 249, 162, 0.1);
   padding: 1rem;
   border-radius: 15px;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgb(230, 230, 150);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  color: white;
+  border: 3px dotted rgb(0, 0, 0);;
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
   width: 300px;
   text-align: center;
 }
