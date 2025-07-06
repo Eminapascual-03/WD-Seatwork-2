@@ -6,8 +6,7 @@
 }
 
 body {
-  
-  background: rgb(142, 48, 48);
+  background: linear-gradient(to bottom, #6b1b1b, rgb(198, 43, 43), red, #ffffff);
   color: white;
   font-family:cursive; 
   min-height: 100vh;
@@ -20,18 +19,18 @@ body {
   justify-content: flex-end;
   padding: 1rem;
   gap: 1rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(250, 160, 160, 0.523);
   position: relative;
   z-index: 10;
 }
 
 .btn {
-  background: rgba(255, 255, 255, 0.2);
-  padding: 0.4rem 1rem;
-  border-radius: 5px;
+  background: rgb(224, 46, 46);
+  padding: 0.4rem 1.5rem;
+  border-radius: 7px;
   font-weight: bold;
   color: white;
-  border: 1px solid rgba(255, 255, 255, 0.4);
+  border: 1.5px dashed rgba(255, 255, 255, 0.4);
   transition: 0.3s;
 }
 
@@ -82,8 +81,8 @@ body {
   border-radius: 20px;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border: 1.5px solid rgb(180, 97, 97);
-  box-shadow: 0 0 20px rgb(243, 2, 2);
+  border: 3px solid rgb(123, 12, 12);
+  box-shadow: 0 0 40px rgb(255, 161, 161);
   color: white;
   width: 350px;
   text-align: center;
