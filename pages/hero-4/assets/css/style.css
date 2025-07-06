@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(to bottom, #6b1b1b, rgb(198, 43, 43), red, #ffffff);
+  color: white;
+  font-family:cursive; 
+  min-height: 100vh;
+  
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  gap: 1rem;
+  background: rgba(250, 160, 160, 0.523);
+  position: relative;
+  z-index: 10;
+}
+
+.btn {
+  background: rgb(224, 46, 46);
+  padding: 0.4rem 1.5rem;
+  border-radius: 7px;
+  font-weight: bold;
+  color: white;
+  border: 1.5px dashed rgba(255, 255, 255, 0.4);
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.btn.active {
+  background: white;
+  color: #2c2c2c;
+}
+
+.hero-sides {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: calc(100vh - 90px);
+  padding: 20rem;
+  gap: 15rem;
+}
+
+.right {
+  flex: 1;
+  text-align: right;
+}
+
+.right .note {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.right .title {
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.right h2 {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.logo {
+  width: 100px; 
+  height: auto;
+  border-radius: 10px; 
+}
+
+.card {
+  background: rgba(174, 41, 41, 0.961);
+  padding: 1rem;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 3px solid rgb(123, 12, 12);
+  box-shadow: 0 0 40px rgb(255, 161, 161);
+  color: white;
+  width: 350px;
+  text-align: center;
+}
+
+.card-img {
+  max-width: 100%;
+  border-radius: 2rem;
+  margin: 1rem 0;
+}
