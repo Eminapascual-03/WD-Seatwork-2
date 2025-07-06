@@ -37,11 +37,11 @@
 
 .btn:hover {
   transform: scale(1.05);
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(125, 244, 151, 0.925);
 }
 
 .btn.active {
-  background: white;
+  background: rgb(111, 232, 111);
   color: #2c2c2c;
 }
 

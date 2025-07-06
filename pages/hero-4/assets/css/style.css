@@ -6,7 +6,6 @@
 }
 
 body {
-  /* background: linear-gradient(to bottom, #6b1b1b, rgb(198, 43, 43), red, #ffffff); */
   background-image: url('../img/bg.jpg');
   color: white;
   font-family:cursive; 
@@ -20,29 +19,29 @@ body {
   justify-content: flex-end;
   padding: 1rem;
   gap: 1rem;
-  background: rgba(250, 160, 160, 0.523);
+  background: linear-gradient(to right, black, grey, rgb(176, 175, 175), rgba(255, 255, 255, 0.763), black);
   position: relative;
   z-index: 10;
 }
 
 .btn {
-  background: rgb(224, 46, 46);
+  background: rgba(28, 35, 90, 0.429);
   padding: 0.4rem 1.5rem;
-  border-radius: 7px;
+  border-radius: 1px;
   font-weight: bold;
   color: white;
-  border: 1.5px dashed rgba(255, 255, 255, 0.4);
+  border: 2px dotted rgba(255, 0, 0, 0.993);
   transition: 0.3s;
 }
 
 .btn:hover {
   transform: scale(1.05);
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(62, 223, 235, 0.941);
 }
 
 .btn.active {
   background: white;
-  color: #2c2c2c;
+  color: #0419ff;
 }
 
 .hero-sides {
@@ -57,6 +56,7 @@ body {
 .right {
   flex: 1;
   text-align: right;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .right .note {
@@ -69,6 +69,7 @@ body {
   font-size: 3rem;
   letter-spacing: 0.5rem;
   margin-bottom: 0.5rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .right h2 {
@@ -77,8 +78,8 @@ body {
 }
 
 .logo {
-  width: 100px; 
-  height: auto;
+  width: 140px; 
+  height: 10;
   border-radius: 10px; 
 }
 

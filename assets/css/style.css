@@ -87,13 +87,13 @@ body {
     transition: all 0.2s ease;
 }
 
-.header .btn:hover {
+/* .header .btn:hover {
     transform: scale(1.1);
 }
 
 .header .btn:hover::before {
     transform: skew(20deg) translateY(-5px) translateX(-20px);
-}
+} */
 
 
 .main-content {
