@@ -6,7 +6,8 @@
 }
 
 body {
-  background: linear-gradient(to bottom, #6b1b1b, rgb(198, 43, 43), red, #ffffff);
+  /* background: linear-gradient(to bottom, #6b1b1b, rgb(198, 43, 43), red, #ffffff); */
+  background-image: url('../img/bg.jpg');
   color: white;
   font-family:cursive; 
   min-height: 100vh;
@@ -81,21 +82,23 @@ body {
   border-radius: 10px; 
 }
 
+
 .card {
-  background: rgba(174, 41, 41, 0.961);
+  background: linear-gradient(65deg, rgba(0, 41, 244, 0.525),  rgba(134, 143, 211, 0.429),rgb(46, 46, 46), rgba(28, 35, 90, 0.429));
   padding: 1rem;
-  border-radius: 20px;
+  border-radius: 5px;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 3px solid rgb(123, 12, 12);
-  box-shadow: 0 0 40px rgb(255, 161, 161);
+  box-shadow: 0 0 40px rgb(0, 0, 0);
   color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   width: 350px;
   text-align: center;
 }
 
 .card-img {
   max-width: 100%;
-  border-radius: 2rem;
-  margin: 1rem 0;
+  border-radius: 0.5rem;
+  margin: 0.5rem 0;
 }
