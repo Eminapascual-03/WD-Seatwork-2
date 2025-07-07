@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
     color: white;
-    background: rgb(66, 133, 225);
+    background: rgb(57, 91, 138);
     flex-direction: column;
     min-height: 100vh; 
     align-items: center;
@@ -38,7 +38,7 @@ body {
     background-position: center;
     background-repeat: no-repeat; 
     background-attachment: fixed; 
-    filter: sepia(0.5) hue-rotate(-10deg) opacity(0.5);
+    filter: sepia(0.5) hue-rotate(-10deg) opacity(0.3);
 }
 
 
@@ -118,6 +118,7 @@ body {
     font-size: 3rem;
     letter-spacing: 0.8rem;
     font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .top .title {
@@ -127,6 +128,7 @@ body {
 
 .top .subtitle {
     font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     letter-spacing: 1rem;
 }
 
