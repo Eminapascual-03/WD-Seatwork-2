@@ -10,10 +10,11 @@
   <h3 align="center">Hero Section - Activity 2</h3>
 </div>
 <div align="center">
-  This acctivity is about making 5 different hero sections with different designs each page. 
+  This activity is about making 5 different hero sections with different designs each page.
 </div>
 
 <br />
+
 ![](https://visit-counter.vercel.app/counter.png?page=Eminapascual-03/WD-Seatwork-2)
 
 [![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
@@ -58,9 +59,8 @@ Guiding Question:
 This project is about making five different main sections for a website, using only HTML and CSS. The goal is to make the website look very appealing right away, with each section showing a different designs. We will use HTML to place these pictures and set their basic structure. Then, CSS will be used to size them correctly and position them where they look best. 
 
 ### Key Components
-<!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
+- MultiPage Website
 - 5 Hero Section Designs
 
 ### Technology
@@ -103,7 +103,12 @@ WD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Stell | Stell Picture | https://ph.pinterest.com/pin/956874252085158301/ |
+| Ken | Ken Picture | https://ph.pinterest.com/pin/956874252085158212/ |
+| Josh | Josh Picture | https://ph.pinterest.com/pin/128563764357837002// |
+| Pablo | Pablo Picture | https://ph.pinterest.com/pin/956874252085159229/ |
+| Justin | Justin Picture | https://x.com/SB19Official/status/1918259170278559857/photo/2 |
+| Logo | SB19 Logo | https://ph.pinterest.com/pin/606789749832281173/ |
+
